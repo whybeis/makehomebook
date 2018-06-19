@@ -1,17 +1,88 @@
-﻿<!DOCTYPE html>
+﻿
+<!DOCTYPE html>
 
-<html lang="en" xmlns="http://www.w3.org/1999/xhtml" style="margin-left:30px;">
+<html lang="ko" xmlns="http://www.w3.org/1999/xhtml" style="margin-left:30px;">
+
 <head>
     <meta charset="utf-8" />
-    <title>집 페이지 1</title>
+    <title>집 북 만들기</title>
 
+    <h1>홈페이지 만들기 연습</h1>
+
+    <style>
+        #main{
+            display: grid;
+            grid-template-columns: 150px 1fr;
+        }
+
+        #menu{
+            border-right: 1px solid seagreen;
+
+        }
+
+        #menu ul{
+            width: 100px;
+            margin: 0;
+            padding: 30px;
+            line-height: 150%;
+        }
+        
+        #article{
+            width: 740px;
+            padding:20px;
+            padding-top: 0;
+            
+        }
+        
+        a {
+            color: black;
+            text-decoration: none;
+        }
+
+        h1 {
+            font-size: 45px;
+            text-align: center;
+            border-bottom: 5px solid seagreen;
+            margin: 0;
+            padding: 20px;
+        }
+
+
+        h2 {
+            font-size: 30px;
+        }
+    </style>
 </head>
-<body>
-    <h1>집 페이지 1</h1>
-    이 페이지는 첫 번째 집 페이지로 특별한 내용은 없습니다.
-    <br />
-    <br />
 
-    <img src="https://github.com/whybeis/makehomebook/blob/master/heavyrain.gif?raw=true" width="500px" title="폭우" alt="폭우" />
+<body>
+    <div id="main">
+        <div id="menu">
+            <ul>
+                <li>
+                    <a href="HTMLPage1.html" title="집 페이지1"> 집 페이지1</a>
+                </li>
+                <li>
+                    <a href="HTMLPage2.html" title="집 페이지2" class="saw">집 페이지2</a>
+                </li>
+                <li>
+                    <a href="HTMLPage3.html" title="집 페이지3">집 페이지3</a>
+                </li>
+            </ul>
+        </div>
+
+
+
+
+        <div id="article">
+            <h2>페이지 1</h2>
+            <p>
+               비가 온다
+            </p>
+
+            <img src="https://github.com/whybeis/makehomebook/blob/master/heavyrain.gif?raw=true" width="500px" title="폭우" alt="폭우" />
+
+        </div>
+    </div>
 </body>
+
 </html>
