@@ -46,7 +46,7 @@ h2 {
     font-size: 30px;
 }
 
-@media(max-width:800px){
+@media(max-width:1200px){
     #main{
         display: block;
         width: 100%;
