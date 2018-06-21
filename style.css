@@ -49,20 +49,19 @@ h2 {
 @media(max-width:1200px){
     #main{
         display: block;
-        width: 100%;
     }
     #menu{
         border-right: none;
         border-bottom: 2px solid seagreen;
-        width:100%;
+
     }
 }
 
-@media(min-width:1921px){
+@media(min-width:1920px){
     #main{
         width: 80%;
     }
     #menu ul{
-  margin-left: 40%;
+    margin-left: 40%;
     }
 }
